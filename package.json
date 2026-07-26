@@ -1,0 +1,14 @@
+{
+  "name": "forge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Initial deployable service surface for the Forge software organization.",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
