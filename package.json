@@ -1,0 +1,15 @@
+{
+  "name": "forge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Approval-gated, evidence-backed software delivery orchestration service.",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "NODE_ENV=test node --test",
+    "check": "node --check src/server.js && node --check src/forge.js && node --check src/store.js && node --check src/state-machine.js"
+  }
+}
